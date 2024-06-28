@@ -3,7 +3,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 function WeatherHome(){
     const apiKey= '5ae2586ea2964eecb0c182829240706'; 
-    const apiURL = 'http://api.weatherapi.com/v1/forecast.json'; 
+    const apiURL = 'https://api.weatherapi.com/v1/forecast.json'; 
 
     const [location, setLocation]  = useState('');
     const [temperature, setTemperature] = useState(null); 
