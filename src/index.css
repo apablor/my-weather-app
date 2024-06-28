@@ -1,4 +1,30 @@
-:root {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.montserrat-regular {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal; /* Adjust weight as needed */
+  font-style: normal;
+}
+
+/* Additional variations can be added as needed */
+.montserrat-bold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.montserrat-italic {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,4 +91,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
